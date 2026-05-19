@@ -96,6 +96,7 @@
         const form = document.createElement('form');
         form.method = 'POST';
         form.action = 'https://musicbrainz.org/release/add';
+        form.target = '_blank';
 
         function add(name, value) {
             if (!value) return;
