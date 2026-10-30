@@ -92,8 +92,8 @@ The script converts some TOWER RECORDS ONLINE media format names into MusicBrain
 | CDアルバム | CD |
 | DVD | DVD-Video |
 | Blu-ray Disc | Blu-ray |
-| 書籍 | Not imported |
-| グッズ | Not imported |
+| 書籍 | *Not imported* |
+| グッズ | *Not imported* |
 
 Other formats are passed through as retrieved from the product page.
 
