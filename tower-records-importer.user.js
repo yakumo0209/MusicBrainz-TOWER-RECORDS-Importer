@@ -4,6 +4,7 @@
 // @match        https://tower.jp/*
 // @grant        none
 // @run-at       document-end
+// ==/UserScript==
 
 (function () {
     'use strict';
