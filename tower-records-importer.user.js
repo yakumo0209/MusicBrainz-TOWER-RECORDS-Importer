@@ -4,7 +4,6 @@
 // @match        https://tower.jp/*
 // @grant        none
 // @run-at       document-end
-// ==/UserScript==
 
 (function () {
     'use strict';
@@ -134,8 +133,8 @@
         add('urls.0.url', location.href);
         add('urls.0.link_type', 79);
 
-        add('edit_note', `Imported with TOWER RECORDS ONLINE Importer (https://github.com/yakumo0209/MusicBrainz-TOWER-RECORDS-Importer/blob/main/tower-records-importer.user.js).
-Data from ${location.href}.`);
+        add('edit_note', `TOWER RECORDS ONLINE Importer (https://github.com/yakumo0209/MusicBrainz-TOWER-RECORDS-Importer/blob/main/tower-records-importer.user.js)
+Source: ${location.href}.`);
 
         document.body.appendChild(form);
         form.submit();
