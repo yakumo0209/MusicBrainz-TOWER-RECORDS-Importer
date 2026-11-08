@@ -134,7 +134,7 @@
         add('urls.0.url', location.href);
         add('urls.0.link_type', 79);
 
-        add('edit_note', `TOWER RECORDS ONLINE Importer (https://github.com/yakumo0209/MusicBrainz-TOWER-RECORDS-Importer/blob/main/tower-records-importer.user.js)
+        add('edit_note', `TOWER RECORDS ONLINE Importer (https://github.com/yakumo0209/MusicBrainz-TOWER-RECORDS-Importer)
 Source: ${location.href}.`);
 
         document.body.appendChild(form);
