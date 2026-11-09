@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         MusicBrainz: TOWER RECORDS ONLINE Importer
+// @namespace    https://github.com/yakumo0209/MusicBrainz-TOWER-RECORDS-Importer
+// @author       yakumo0209
 // @version      1.0
 // @match        https://tower.jp/*
 // @grant        none
 // @run-at       document-end
+// @updateURL    https://raw.githubusercontent.com/yakumo0209/MusicBrainz-TOWER-RECORDS-Importer/refs/heads/main/tower-records-importer.user.js
+// @downloadURL  https://raw.githubusercontent.com/yakumo0209/MusicBrainz-TOWER-RECORDS-Importer/refs/heads/main/tower-records-importer.user.js
 // ==/UserScript==
 
 (function () {
