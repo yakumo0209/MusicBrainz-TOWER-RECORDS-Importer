@@ -76,6 +76,7 @@
             if (format === '12”シングルレコード') format = '12" Vinyl';
             if (format === '書籍') format = null;
             if (format === 'グッズ') format = null;
+            if (format === 'アパレル') format = null;
 
 
             // 直下の ol > li からトラック取得
