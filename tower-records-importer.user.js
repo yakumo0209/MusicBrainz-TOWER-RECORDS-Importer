@@ -72,6 +72,8 @@
             if (format === 'CDアルバム') format = 'CD';
             if (format === 'DVD') format = 'DVD-Video';
             if (format === 'Blu-ray Disc') format = 'Blu-ray';
+            if (format === '7”シングルレコード') format = '7" Vinyl';
+            if (format === '12”シングルレコード') format = '12" Vinyl';
             if (format === '書籍') format = null;
             if (format === 'グッズ') format = null;
 
